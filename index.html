@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table design</title>
+</head>
+<body>
+
+    <h1>Employee Management Table</h1>
+    <p>Here we are design An employee table for manages the records of employee in our company.</p>
+   <br> 
+   <p><button onclick="sortTable()">Sort</button></p>
+<br>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Employee names.." >
+<br>   
+<table id="myTable">   
+        <tr class="header">
+            <th style="width:10%">Sr.no</th>
+          <th style="width:20%" >Employee  Name</th>
+          <th style="width:20%" onclick="sortTable(1)">Address</th>
+          <th style="width:20%" >Contact No</th>
+          <th style="width:20%">position</th>
+        </tr>
+        <tr>
+            <td>1</td>
+          <td>John Marico</td>
+          <td>America</td>
+          <td>65723283098</td>
+          <td>CEO </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Stainly Richard</td>
+            <td>America</td>
+            <td>65721829593</td>
+            <td>CEO </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>John Roman</td>
+            <td>US</td>
+            <td>8924682047</td>
+            <td>Manager</td>
+          </tr>
+          
+          <tr>
+            <td>4</td>
+            <td>Shina Bora</td>
+            <td>America</td>
+            <td>5612939002</td>
+            <td>BA </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Dr.Maahi Deshmukh</td>
+            <td>Mexico</td>
+            <td>3417658579</td>
+            <td>QA </td>
+          </tr>
+          <tr> <td>6</td>
+            <td>John fransico</td>
+            <td>Asia</td>
+            <td>5678370138</td>
+            <td>Team lead-1 </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Bob Richard</td>
+            <td>India</td>
+            <td>7845229101</td>
+            <td>Employee Team-1 </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Dolly Marin</td>
+            <td>Japan</td>
+            <td>6210258903</td>
+            <td>Junior developer</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Rita Chauhan</td>
+            <td>India</td>
+            <td>65723283098</td>
+            <td>Senior developer</td>
+          </tr>
+          
+          <tr>
+            <td>10</td>
+            <td>Mr. Bean</td>
+            <td>Maxico</td>
+            <td>6900123563</td>
+            <td>Employee team-2 </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Urfi Javed</td>
+            <td>India</td>
+            <td>5893093134</td>
+            <td>Employee team-2 </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Roman Jain</td>
+            <td>Japan</td>
+            <td>2314009774</td>
+            <td>Employee team-2</td>
+          </tr>
+      </table>
+      <script src="script.js"></script>
+</body>
+</html>

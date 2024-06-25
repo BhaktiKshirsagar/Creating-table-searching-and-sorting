@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/top-view-blue-monday-concept-with-copy-space_23-2148719980.jpg");
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+
+table, th, td {
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-corporate-culture-employee-style-poster-background-material-image_125216.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    border:1px solid black;
+    text-align: center;  
+    height:30px; 
+    
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  #myInput {
+    border:1px solid black;
+    text-align: center;  
+    height:30px;
+    
+     width: 40%;
+    font-size: 16px;
+    /* padding: 12px 20px 12px 40px; */
+    /* border: 1px solid #ddd;
+    margin-bottom: 12px; */
+  } */
+  
+  /* #myTable { */
+    /* border-collapse: collapse; */
+    /* width: 100%; */
+    /* border: 1px solid #ddd; */
+    /* font-size: 18px; */
+  /* } */
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #f5f2f2;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #fcf6f6;
+  }
+  
